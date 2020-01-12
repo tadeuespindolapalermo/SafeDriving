@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "333469969784",
+    "firebase_url": "https://safedriving-ad6f1.firebaseio.com",
+    "project_id": "safedriving-ad6f1",
+    "storage_bucket": "safedriving-ad6f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333469969784:android:da19db42de8ea8a45eac8d",
+        "android_client_info": {
+          "package_name": "br.com.tadeudeveloper.safedriving"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333469969784-qgkdh8191ajmb307n8d68n2o000b6gj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.tadeudeveloper.safedriving",
+            "certificate_hash": "0116e6caa85d2acbd16b76342a6b6a2d0a5db1c2"
+          }
+        },
+        {
+          "client_id": "333469969784-2i8j3k94u2louu3o02r9e8741648iet1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZnxRZ9RQ2XxR_2GGhZP1wrV32z3bAeug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333469969784-2i8j3k94u2louu3o02r9e8741648iet1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
