@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import br.com.tadeudeveloper.safedriving.R;
+import br.com.tadeudeveloper.safedriving.helper.UsuarioFirebase;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,5 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void abrirTelaCadastro(View view) {
         startActivity(new Intent(this, CadastroActivity.class));
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        UsuarioFirebase.redirecionaUsuarioLogado(this);
     }
 }
